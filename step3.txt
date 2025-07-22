@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Step 3 - Interactive Webpage</title>
+    <style>
+        body {
+            background-color: #eafaff;
+            font-family: Verdana, sans-serif;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            color: #333;
+        }
+
+        h1 {
+            color: #005f99;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Interactive Webpage</h1>
+
+    <h2>About</h2>
+    <p>This version includes JavaScript for interactivity. Click the button to see what happens!</p>
+
+    <h2>My Favorite Image</h2>
+    <img src="https://source.unsplash.com/600x300/?sunset" alt="Beautiful Sunset">
+
+    <h2>Helpful Resources</h2>
+    <p>Visit <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN JavaScript Docs</a> for more.</p>
+
+    <button onclick="showMessage()">Click Me!</button>
+
+    <script>
+        function showMessage() {
+            alert("🎉 Hello! You're learning JavaScript successfully!");
+        }
+    </script>
+</body>
+</html>
